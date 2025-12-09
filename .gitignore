@@ -1,0 +1,43 @@
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Certificate and key files
+*.crt
+*.key
+*.csr
+*.pem
+*.p12
+*.pfx
+*.srl
+
+# Certificate directories
+config/ca/
+config/db/
+config/user/
+
+# Node certificates in cluster directories
+cluster/scylla-1/*.crt
+cluster/scylla-1/*.key
+cluster/scylla-2/*.crt
+cluster/scylla-2/*.key
+cluster/scylla-3/*.crt
+cluster/scylla-3/*.key
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
